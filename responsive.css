@@ -12,6 +12,15 @@
     width: 100%;
   }
   
+   .header-right{
+    display:none
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon{
+    display:block;
+  }
+  
   footer {
     text-align: center;
   }
