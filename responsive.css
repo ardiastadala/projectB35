@@ -1,18 +1,42 @@
-/* Untuk Tablet */
-@media (max-width: 1000px) {
+@media all and (max-width: 1000px) {
   .lesson {
     width: 50%;
     margin-bottom: 50px;
   }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
 }
 
 /* Untuk Smartphone */
-@media (max-width: 670px) {
+@media all and (max-width: 670px) {
   .lesson {
     width: 100%;
   }
   
-   .header-right{
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  /* Tambahkan CSS untuk header-right */
+  .header-right{
     display:none
   }
   
@@ -21,24 +45,13 @@
     display:block;
   }
   
-  footer {
-    text-align: center;
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
   }
   
-  /* Gantikan width btn ke 100% */
-  .btn{
-    width:100%;
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
   }
-  
-  /* Gantikan margin-bottom facebook ke 10px */
-  .facebook{
-    margin-bottom:10px;
-  }
-  
-  /* Tambahkan CSS untuk top-wrapper */
-  .top-wrapper{
-    text-align:left;
-    padding-top:130px;
-  }
-  
 }
