@@ -11,50 +11,25 @@
   .lesson {
     width: 100%;
   }
-
-  
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-  
-  .heading h2 {
-    font-size: 20px;
-  }
-}
-
   
   footer {
     text-align: center;
   }
   
-  .btn {
-    width: 100%;
+  /* Gantikan width btn ke 100% */
+  .btn{
+    width:100%;
   }
   
-  .facebook {
-    margin-bottom: 10px;
+  /* Gantikan margin-bottom facebook ke 10px */
+  .facebook{
+    margin-bottom:10px;
   }
   
-  .top-wrapper {
-    text-align: left;
+  /* Tambahkan CSS untuk top-wrapper */
+  .top-wrapper{
+    text-align:left;
     padding-top:130px;
   }
   
-  .header-right {
-    display: none;
-  }
-  
-  .menu-icon {
-    display: block;
-  }
-  
-  .top-wrapper h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-  
-  .top-wrapper h2 {
-    font-size: 14px;
-    line-height: 20px;
-  }
 }
