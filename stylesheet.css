@@ -85,33 +85,41 @@ a {
   margin-right: 5px;
 }
 
+/*CSS untuk header */
 header container {
   width: 100px;
   padding: 0 15px;
   margin: 0 auto;
  }
 
+
 header {
   height: 65px;
   width: 100%;
-  background-color: #000000;
-  position :fixed;
-  top: 0;
-  z-index: 10;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* Ubah position ke fixed, dan top ke 0 */
+  position:fixed;
+  top:0;
+  /* Ubah z-index ke 10 */
+  z-index:10;
 }
 
 .logo {
-  width: 124px;
-  margin-top: 20px;
+  width: 124px	
+  margin: 20px;
+  height:30px;
+
 }
 
-.header-left {
-  float: left;
-}
+.header-left{
+  padding: 15px;
+  float:left;
+ }
 
-.header-right {
-  float: right;
+.header-right{
+  float:right;
   margin-right: -25px;
+  padding:0px 10px;
 }
 
 .header-right a {
@@ -132,7 +140,8 @@ header {
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  display: none;
+  /* Gantikan property display ke none */
+  display:none; 
 }
 
 .lesson-wrapper {
