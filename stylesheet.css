@@ -96,7 +96,7 @@ header container {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color:#c0392b;
   /* Ubah position ke fixed, dan top ke 0 */
   position:fixed;
   top:0;
